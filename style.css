@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* BACKGROUND */
+#game{
+    margin: 10px 300px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* CARRE */
+#game > div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    color: white;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+/* REPONSE */
+#game > div > span{
+    display: none;
+}
+
+/* HOVER */
+#game > div:hover{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    color: white;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+#game > div:hover > div{
+    display: none;
+}
+
+#game > div:hover >span{
+    display: block;
+}
